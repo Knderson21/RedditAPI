@@ -1,0 +1,7 @@
+<div class="allPosts">
+  <h1>Reddit Awww</h1>
+  <app-single-result
+    *ngFor="let p of reddit.data.children"
+    [children]="p"
+  ></app-single-result>
+</div>
